@@ -61,11 +61,31 @@
     width: 0%;
     height: 0%;
 }
+#move {
+    height: 100%;
+    width: 0.2%;
+    margin-left: 49.6%;
+    background-color: black;
+    cursor: col-resize;
+    position: fixed;
+}
+#btnLogin {
+    height: 6%;
+    width: 45%;
+    background-color: rgb(115, 155, 142);
+    border: none;
+    color: #fff;
+    border-radius: 5%;
+    top: 0%;
+}
+#btnLogin:active {
+    border: solid 1px #7e7474;
+}
 .Email {
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
-    padding-right: 10%;
+    width: 39.1%;
     left: 30%;
     text-align: start;
 }
@@ -73,7 +93,7 @@
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
-    padding-right: 10%;
+    width: 39.1%;
 }
 #dfs {
     position: -webkit-sticky; 
